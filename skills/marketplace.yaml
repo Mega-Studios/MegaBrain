@@ -1,6 +1,6 @@
 # Skills category usage
 #
-# 10 skills across 8 categories, curated for MegaBrain (getmegabrain.com).
+# 12 skills across 9 categories, curated for MegaBrain (getmegabrain.com).
 #
 items:
   - id: model-router-strategy
@@ -23,3 +23,7 @@ items:
     category: evaluation
   - id: byok-provider-setup
     category: administration
+  - id: mds-design-system
+    category: design
+  - id: mckinsey-7-step
+    category: business

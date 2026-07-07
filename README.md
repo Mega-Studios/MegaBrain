@@ -6,7 +6,7 @@ This repo is a curated marketplace of **Skills**, **MCP Servers**, and **Agents*
 
 | Resource | Description |
 |----------|--------------|
-| **[Skills](#skills)** | Modular workflows for tasks like model routing, cost optimization, and migration onto MegaBrain |
+| **[Skills](#skills)** | Modular workflows for tasks like model routing, cost optimization, migration onto MegaBrain, and brand/analysis conventions |
 | **[MCP Servers](#mcp-servers)** | MCP tools for calling MegaBrain's gateway, usage/billing, model catalog, and admin APIs |
 | **[Agents](#agents)** | Focused agent configurations for MegaBrain-related engineering and ops tasks |
 
@@ -34,6 +34,8 @@ skills/
 | [rate-limit-resilience](skills/rate-limit-resilience/SKILL.md) | Handle 429s and backoff across providers behind MegaBrain |
 | [model-benchmarking](skills/model-benchmarking/SKILL.md) | Benchmark candidate models on latency, cost, and quality |
 | [byok-provider-setup](skills/byok-provider-setup/SKILL.md) | Configure bring-your-own-key providers for enterprise routing |
+| [mds-design-system](skills/mds-design-system/SKILL.md) | Creates HTML/CSS output matching MegaBrain's visual identity — dark backgrounds, brand orange, clean typography |
+| [mckinsey-7-step](skills/mckinsey-7-step/SKILL.md) | Structures data analysis using McKinsey's 7-step framework and presents findings using the Pyramid Principle |
 
 ---
 
@@ -84,17 +86,6 @@ agents/
 | [onboarding-guide](agents/onboarding-guide/AGENT_DEFINITION.md) | Walks new users through first MegaBrain call |
 | [security-reviewer](agents/security-reviewer/AGENT_DEFINITION.md) | Reviews API key handling and secrets hygiene |
 | [docs-writer](agents/docs-writer/AGENT_DEFINITION.md) | Writes MegaBrain integration guides and docs |
-
----
-
-## Cline Skills (legacy)
-
-The custom-instruction skills below predate the marketplace structure above and remain available for [Cline](https://github.com/cline/cline) users. Paste one into Cline's **Custom Instructions** field.
-
-| Skill | Description |
-|-------|-------------|
-| [MegaBrain Design System](skills/mds-design-system.md) | Creates HTML/CSS output matching MegaBrain's visual identity — dark backgrounds, brand orange, clean typography |
-| [McKinsey 7-Step + Pyramid Principle](skills/mckinsey-7-step.md) | Structures data analysis using McKinsey's 7-step framework and presents findings using the Pyramid Principle |
 
 ---
 
