@@ -1,0 +1,25 @@
+# MCP category usage
+#
+# 10 MCPs across 4 categories, curated for MegaBrain (getmegabrain.com).
+#
+items:
+  - id: megabrain-gateway
+    category: development
+  - id: megabrain-usage
+    category: observability
+  - id: megabrain-model-catalog
+    category: development
+  - id: megabrain-keys
+    category: development
+  - id: megabrain-router
+    category: development
+  - id: megabrain-webhooks
+    category: observability
+  - id: megabrain-eval
+    category: development
+  - id: megabrain-cache
+    category: development
+  - id: megabrain-teams
+    category: business
+  - id: megabrain-logs
+    category: observability

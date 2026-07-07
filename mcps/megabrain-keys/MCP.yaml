@@ -1,0 +1,25 @@
+id: megabrain-keys
+name: MegaBrain Keys
+description: Create, list, and revoke MegaBrain API keys and project scopes programmatically.
+author: MegaBrain
+url: https://getmegabrain.com/docs
+category: development
+prerequisites:
+  - MegaBrain account with admin access
+content:
+  - name: stdio (npx)
+    prerequisites:
+      - Node.js
+      - MegaBrain admin API key
+    content: |
+      {
+        "command": "npx",
+        "args": ["-y", "@megabrain/mcp-keys"],
+        "env": {
+          "MEGABRAIN_ADMIN_API_KEY": "{{MEGABRAIN_ADMIN_API_KEY}}"
+        }
+      }
+parameters:
+  - name: MegaBrain Admin API Key
+    key: MEGABRAIN_ADMIN_API_KEY
+    placeholder: mb_admin_xxxxxxxxxxxxxxxxxxxxxxxx

@@ -1,0 +1,25 @@
+id: megabrain-logs
+name: MegaBrain Logs
+description: Query MegaBrain request logs and traces (per model, per project) for debugging failed or slow completions.
+author: MegaBrain
+url: https://getmegabrain.com/docs
+category: observability
+prerequisites:
+  - MegaBrain API key with logs-read scope
+content:
+  - name: stdio (npx)
+    prerequisites:
+      - Node.js
+      - MegaBrain API key
+    content: |
+      {
+        "command": "npx",
+        "args": ["-y", "@megabrain/mcp-logs"],
+        "env": {
+          "MEGABRAIN_API_KEY": "{{MEGABRAIN_API_KEY}}"
+        }
+      }
+parameters:
+  - name: MegaBrain API Key
+    key: MEGABRAIN_API_KEY
+    placeholder: mb_live_xxxxxxxxxxxxxxxxxxxxxxxx

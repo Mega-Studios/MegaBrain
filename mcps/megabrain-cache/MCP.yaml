@@ -1,0 +1,25 @@
+id: megabrain-cache
+name: MegaBrain Cache
+description: Inspect and configure MegaBrain's prompt/response caching settings to cut latency and cost on repeated requests.
+author: MegaBrain
+url: https://getmegabrain.com/docs
+category: development
+prerequisites:
+  - MegaBrain API key
+content:
+  - name: stdio (npx)
+    prerequisites:
+      - Node.js
+      - MegaBrain API key
+    content: |
+      {
+        "command": "npx",
+        "args": ["-y", "@megabrain/mcp-cache"],
+        "env": {
+          "MEGABRAIN_API_KEY": "{{MEGABRAIN_API_KEY}}"
+        }
+      }
+parameters:
+  - name: MegaBrain API Key
+    key: MEGABRAIN_API_KEY
+    placeholder: mb_live_xxxxxxxxxxxxxxxxxxxxxxxx

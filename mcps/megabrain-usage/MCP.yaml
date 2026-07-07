@@ -1,0 +1,25 @@
+id: megabrain-usage
+name: MegaBrain Usage
+description: Query MegaBrain usage and billing data (requests, tokens, spend by model/team) as MCP tools for reporting and cost analysis.
+author: MegaBrain
+url: https://getmegabrain.com/docs
+category: observability
+prerequisites:
+  - MegaBrain account with billing/usage read access
+content:
+  - name: stdio (npx)
+    prerequisites:
+      - Node.js
+      - MegaBrain API key with usage-read scope
+    content: |
+      {
+        "command": "npx",
+        "args": ["-y", "@megabrain/mcp-usage"],
+        "env": {
+          "MEGABRAIN_API_KEY": "{{MEGABRAIN_API_KEY}}"
+        }
+      }
+parameters:
+  - name: MegaBrain API Key
+    key: MEGABRAIN_API_KEY
+    placeholder: mb_live_xxxxxxxxxxxxxxxxxxxxxxxx

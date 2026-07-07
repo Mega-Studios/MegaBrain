@@ -1,0 +1,25 @@
+# Skills category usage
+#
+# 10 skills across 8 categories, curated for MegaBrain (getmegabrain.com).
+#
+items:
+  - id: model-router-strategy
+    category: infrastructure
+  - id: megabrain-cost-optimizer
+    category: finops
+  - id: openai-compatible-migration
+    category: migration
+  - id: multi-model-fallback
+    category: reliability
+  - id: prompt-ab-testing
+    category: evaluation
+  - id: megabrain-usage-analytics
+    category: analytics
+  - id: streaming-response-handling
+    category: integration
+  - id: rate-limit-resilience
+    category: reliability
+  - id: model-benchmarking
+    category: evaluation
+  - id: byok-provider-setup
+    category: administration

@@ -1,0 +1,25 @@
+id: megabrain-eval
+name: MegaBrain Eval
+description: Run a prompt across multiple MegaBrain models in one call and return outputs side-by-side for evaluation.
+author: MegaBrain
+url: https://getmegabrain.com/docs
+category: development
+prerequisites:
+  - MegaBrain API key
+content:
+  - name: stdio (npx)
+    prerequisites:
+      - Node.js
+      - MegaBrain API key
+    content: |
+      {
+        "command": "npx",
+        "args": ["-y", "@megabrain/mcp-eval"],
+        "env": {
+          "MEGABRAIN_API_KEY": "{{MEGABRAIN_API_KEY}}"
+        }
+      }
+parameters:
+  - name: MegaBrain API Key
+    key: MEGABRAIN_API_KEY
+    placeholder: mb_live_xxxxxxxxxxxxxxxxxxxxxxxx

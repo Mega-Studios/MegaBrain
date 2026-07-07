@@ -1,0 +1,25 @@
+# Agent category usage
+#
+# 10 agents across 7 categories, curated for MegaBrain (getmegabrain.com).
+#
+items:
+  - id: model-selection-advisor
+    category: development
+  - id: cost-guardian
+    category: finops
+  - id: migration-specialist
+    category: development
+  - id: prompt-evaluator
+    category: development
+  - id: integration-engineer
+    category: development
+  - id: reliability-engineer
+    category: infrastructure
+  - id: usage-analyst
+    category: analytics
+  - id: onboarding-guide
+    category: development
+  - id: security-reviewer
+    category: security
+  - id: docs-writer
+    category: documentation
