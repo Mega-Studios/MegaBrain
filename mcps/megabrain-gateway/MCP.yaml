@@ -1,0 +1,25 @@
+id: megabrain-gateway
+name: MegaBrain Gateway
+description: Call any of MegaBrain's 500+ models (Claude, GPT, Gemini, Llama, and more) through a single OpenAI-compatible MCP tool.
+author: MegaBrain
+url: https://getmegabrain.com/docs
+category: development
+prerequisites:
+  - MegaBrain account and API key
+content:
+  - name: stdio (npx)
+    prerequisites:
+      - Node.js
+      - MegaBrain API key
+    content: |
+      {
+        "command": "npx",
+        "args": ["-y", "@megabrain/mcp-gateway"],
+        "env": {
+          "MEGABRAIN_API_KEY": "{{MEGABRAIN_API_KEY}}"
+        }
+      }
+parameters:
+  - name: MegaBrain API Key
+    key: MEGABRAIN_API_KEY
+    placeholder: mb_live_xxxxxxxxxxxxxxxxxxxxxxxx

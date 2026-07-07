@@ -1,0 +1,25 @@
+id: megabrain-router
+name: MegaBrain Router
+description: Read and update MegaBrain routing rules and fallback chains (primary/fallback models per project) as MCP tools.
+author: MegaBrain
+url: https://getmegabrain.com/docs
+category: development
+prerequisites:
+  - MegaBrain account with project admin access
+content:
+  - name: stdio (npx)
+    prerequisites:
+      - Node.js
+      - MegaBrain API key
+    content: |
+      {
+        "command": "npx",
+        "args": ["-y", "@megabrain/mcp-router"],
+        "env": {
+          "MEGABRAIN_API_KEY": "{{MEGABRAIN_API_KEY}}"
+        }
+      }
+parameters:
+  - name: MegaBrain API Key
+    key: MEGABRAIN_API_KEY
+    placeholder: mb_live_xxxxxxxxxxxxxxxxxxxxxxxx

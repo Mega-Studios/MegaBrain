@@ -1,0 +1,25 @@
+id: megabrain-model-catalog
+name: MegaBrain Model Catalog
+description: Search and inspect MegaBrain's catalog of 500+ models by capability, context window, modality, and price.
+author: MegaBrain
+url: https://getmegabrain.com/models
+category: development
+prerequisites:
+  - MegaBrain API key
+content:
+  - name: stdio (npx)
+    prerequisites:
+      - Node.js
+      - MegaBrain API key
+    content: |
+      {
+        "command": "npx",
+        "args": ["-y", "@megabrain/mcp-model-catalog"],
+        "env": {
+          "MEGABRAIN_API_KEY": "{{MEGABRAIN_API_KEY}}"
+        }
+      }
+parameters:
+  - name: MegaBrain API Key
+    key: MEGABRAIN_API_KEY
+    placeholder: mb_live_xxxxxxxxxxxxxxxxxxxxxxxx
