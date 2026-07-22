@@ -11,7 +11,7 @@
 
 ## Run ABM like it's your job to hit pipeline, not vanity metrics.
 
-**BlackBelt on Agentic Account Based Marketing (ABM)** is a practitioner's course on ABM for B2B: pick the right target accounts, research them properly, personalize offer and content, build a program, prove it moved revenue — and see where an AI agent can run each step for you. Adapted from a training delivered inside enterprise marketing and sales orgs.
+**BlackBelt on Agentic Account Based Marketing (ABM)** is a practitioner's course on ABM for B2B sales and marketing teams: pick the right target accounts, research them properly, personalize offer and content, build a program, prove it moved revenue — and see where an AI agent can run each step for you. Adapted from a training delivered inside enterprise marketing and sales orgs.
 
 No sign-up. Every module ships with notes, a slide deck, and the working templates.
 

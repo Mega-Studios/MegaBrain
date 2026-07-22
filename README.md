@@ -106,7 +106,7 @@ courses/
 
 | Course | Description |
 |--------|--------------|
-| [BlackBelt on Agentic ABM](courses/blackbelt-agentic-abm/README.md) | Free 6-module course on Account-Based Marketing for B2B — target accounts, account intelligence, metrics, personalization, and program design, with an AI agent example in every module |
+| [BlackBelt on Agentic ABM](courses/blackbelt-agentic-abm/README.md) | Free 6-module course on Account-Based Marketing for B2B sales and marketing teams — target accounts, account intelligence, metrics, personalization, and program design, with an AI agent example in every module |
 
 ---
 
