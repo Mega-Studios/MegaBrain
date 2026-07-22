@@ -1,8 +1,13 @@
+![BlackBelt on Agentic ABM](assets/hero-banner.png)
+
 # BlackBelt on Agentic Account Based Marketing (ABM)
 
-*A free MegaBrain Academy course — part of the [MegaBrain](https://github.com/Mega-Studios/MegaBrain) open-source marketplace.*
+[![License: MIT](https://img.shields.io/github/license/Mega-Studios/MegaBrain?color=blue)](../../LICENSE)
+[![Price: Free](https://img.shields.io/badge/price-free-brightgreen)](https://getmegabrain.com/academy)
+[![Modules](https://img.shields.io/badge/modules-6-orange)](#syllabus)
+[![GitHub stars](https://img.shields.io/github/stars/Mega-Studios/MegaBrain?style=social)](https://github.com/Mega-Studios/MegaBrain)
 
-> BlackBelt on Agentic ABM · 6 modules · Free
+*A free MegaBrain Academy course — part of the [MegaBrain](https://github.com/Mega-Studios/MegaBrain) open-source marketplace.*
 
 ## Run ABM like it's your job to hit pipeline, not vanity metrics.
 
