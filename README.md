@@ -1,14 +1,15 @@
-# MegaBrain — Public Skills, MCPs & Agents
+# MegaBrain — Public Skills, MCPs, Agents & Courses
 
 [MegaBrain](https://getmegabrain.com) is an AI gateway giving access to 500+ models (Claude, GPT, Gemini, Llama, and more) through a single OpenAI-compatible API.
 
-This repo is a curated marketplace of **Skills**, **MCP Servers**, and **Agents** for using MegaBrain effectively with AI coding agents (Claude Code, Cline, and other compatible clients), following the structure of the [Kilo Marketplace](https://github.com/Kilo-Org/kilo-marketplace).
+This repo is a curated marketplace of **Skills**, **MCP Servers**, and **Agents** for using MegaBrain effectively with AI coding agents (Claude Code, Cline, and other compatible clients), following the structure of the [Kilo Marketplace](https://github.com/Kilo-Org/kilo-marketplace) — plus free **Courses** from MegaBrain Academy.
 
 | Resource | Description |
 |----------|--------------|
 | **[Skills](#skills)** | Modular workflows for tasks like model routing, cost optimization, migration onto MegaBrain, and brand/analysis conventions |
 | **[MCP Servers](#mcp-servers)** | MCP tools for calling MegaBrain's gateway, usage/billing, model catalog, and admin APIs |
 | **[Agents](#agents)** | Focused agent configurations for MegaBrain-related engineering and ops tasks |
+| **[Courses](#courses)** | Free MegaBrain Academy courses — practitioner notes, slides, and templates |
 
 ---
 
@@ -89,9 +90,30 @@ agents/
 
 ---
 
+## Courses
+
+Each course is a folder of per-module `README.md` notes plus a slide deck and templates:
+
+```
+courses/
+└── course-slug/
+    ├── README.md              (syllabus)
+    └── module-N-slug/
+        ├── README.md          (module notes)
+        ├── slides-*.pptx
+        └── *.xlsx / *.docx    (templates)
+```
+
+| Course | Description |
+|--------|--------------|
+| [BlackBelt on Agentic ABM](courses/blackbelt-agentic-abm/README.md) | Free 6-module course on Account-Based Marketing for B2B — target accounts, account intelligence, metrics, personalization, and program design, with an AI agent example in every module |
+
+---
+
 ## Links
 
 - **Docs:** [getmegabrain.com/docs](https://getmegabrain.com/docs)
 - **Skills page:** [getmegabrain.com/docs/skills](https://getmegabrain.com/docs/skills)
+- **Academy:** [getmegabrain.com/academy](https://getmegabrain.com/academy)
 - **Models:** [getmegabrain.com/models](https://getmegabrain.com/models)
 - **Book a setup session:** [getmegabrain.com/book](https://getmegabrain.com/book)
