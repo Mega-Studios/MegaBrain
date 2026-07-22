@@ -33,7 +33,7 @@ A persona is a portrait of what a decision-maker thinks about, does, wants and f
 
 The module teaches three interchangeable templates — pick one and use it consistently:
 
-- **Variant 1 — 5 rings of buying insight** (Adele Revella, *Buyer Personas*): priority initiatives, success factors, perceived barriers, buyer's journey, and decision criteria. Revella's own book uses Boon Edam's published "Architect" persona case as its worked example — real quotes from real architects about choosing revolving-door manufacturers. It's summarized in the deck, not reproduced here in full, since it's someone else's published case study, not this course's content.
+- **Variant 1 — 5 rings of buying insight** (Adele Revella, *[Buyer Personas](https://www.amazon.com/Buyer-Personas-Revised-Expanded-Customers/dp/1394236336)* — see [further reading](../module-7-further-reading/README.md)): priority initiatives, success factors, perceived barriers, buyer's journey, and decision criteria. Revella's own book uses Boon Edam's published "Architect" persona case as its worked example — real quotes from real architects about choosing revolving-door manufacturers.
 - **Variant 2 — Pains / Objections / Important-to-know**: the format this module's homework uses. For each persona: at least 3 current pains or problems connected to your product, 3 objections that come up in negotiation, and 3 things the decision-maker absolutely needs to know about you — plus which other products and companies you get compared to.
 - **Variant 3 — empathy map canvas**: what the persona thinks & feels, hears, sees, and says & does, plus their pains and gains.
 

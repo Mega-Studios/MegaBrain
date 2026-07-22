@@ -75,6 +75,6 @@ Warm-up, engagement, nurture and acceleration — assembling touchpoints into a 
 
 ---
 
-Module folders also included third-party material the instructors used as references — industry webinars, vendor research, and outside book summaries. That material keeps its original authorship and isn't re-published or re-branded here; see [further reading](module-7-further-reading/README.md) for what's linked and why.
+The books and articles the modules draw on — six sales-history classics, two Harvard Business Review pieces, and the source of Module 5's persona template — are linked in [further reading](module-7-further-reading/README.md).
 
 > A note on format: the original course was delivered as live recorded sessions. This English edition replaces each recording with written module notes covering the same material, rather than a translated transcript — there was no recording/transcription step in this pass. Slide decks and templates are translated in full; anything containing another company's real employee data has been replaced with an illustrative example.

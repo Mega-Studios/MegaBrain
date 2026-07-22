@@ -4,23 +4,29 @@
 
 *Bonus · Not part of the 6-module curriculum*
 
-The original training included a small supplementary folder of extra resources produced alongside the six core modules — an intro e-book, a case-study booklet, and a tooling webinar deck. These are the instructors' own work, not third-party material.
+The real books and articles behind this course — the sources the modules draw on, summarize, or point back to. Worth reading in full if any single one changed how you think about a deal.
 
-They're listed here as bonus reading rather than folded into a module: the content mostly pre-dates and overlaps with what's now in Modules 1-6. Full slide-for-slide decks aren't included in this pass — descriptions below are summaries, not full reproductions.
+## The six books behind Module 1's history
 
-#### Account-Based Marketing: an introduction (e-book, ~50 pages)
+Module 1 walks through 150 years of B2B sales history as a timeline of ideas. These are the six books that mark it:
 
-A standalone primer covering the same ground Module 1 now covers in more depth: why traditional inbound lead-generation breaks down for large, multi-stakeholder b2b deals, the three ABM program tiers, and a quick self-assessment for whether ABM fits your company. Largely superseded by Module 1.
+- **[Strategic Selling](https://www.amazon.com/New-Strategic-Selling-Successful-Companies/dp/044669519X)** — Robert B. Miller & Stephen E. Heiman with Tad Tuleja. One of the first systematic approaches to multi-stakeholder enterprise deals.
+- **[SPIN Selling](https://www.amazon.com/SPIN-Selling-Neil-Rackham/dp/0070511136)** — Neil Rackham. A consultative, question-led method built from research on 35,000 sales calls.
+- **[Value-Added Selling](https://www.amazon.com/Value-Added-Selling-Fourth-Confidently-Professionally/dp/1260134733)** — Tom Reilly & Paul Reilly. "Cradle to grave": stay with the customer past the sale, sell value rather than price.
+- **[How to Win Friends and Influence People](https://www.amazon.com/How-Win-Friends-Influence-People/dp/1439167346)** — Dale Carnegie. The 1936 original that most relationship-selling advice still traces back to.
+- **[The Challenger Sale](https://www.amazon.com/Challenger-Sale-Control-Customer-Conversation/dp/1591844355)** — Matthew Dixon & Brent Adamson. Control the conversation, teach the customer something new — the direct ancestor of this course's account-intelligence approach.
+- **[Predictable Revenue](https://www.amazon.com/Predictable-Revenue-Business-Practices-Salesforce-com/dp/0984380213)** — Aaron Ross & Marylou Tyler. Splits the funnel into Marketing → BDR → Account Executive, the ancestor of the modern SDR function referenced throughout Module 3's sourcing table.
 
-#### 5 ABM Cases: How B2B Leaders Sell Complex Solutions (case booklet, 18 pages)
+## The two Harvard Business Review articles behind Module 6
 
-Five short published case studies, including Autodesk's 10,000 personalized client web portals and an account-based content/community program. Useful as extra worked examples alongside Module 1's OneLogin, Schneider, Trelleborg, and Boon Edam cases.
+Module 6's account-team and executive-sponsorship guidance is built on two 2021 HBR pieces:
 
-#### Webinar: The ABM Tech Stack (deck, 159 pages)
+- **["When CEOs Make Sales Calls"](https://hbr.org/2021/03/when-ceos-make-sales-calls)** — Noel Capon & Christoph Senn, *Harvard Business Review*, March–April 2021. Five roles a senior executive plays with a strategic account — Hands-off, Loose cannon, Social visitor, Dealmaker, Growth champion — and why the wrong one kills a deal.
+- **["What an Effective Client-Referral Strategy Looks Like"](https://hbr.org/2021/03/what-an-effective-client-referral-strategy-looks-like)** — Scott Edinger, *Harvard Business Review*, March 2021. Turning existing-customer referrals into a repeatable, budgeted source of pipeline rather than something left to chance.
 
-A tour of the ABM tooling landscape mapped against SiriusDecisions' b2b demand waterfall — including a case study of Acxiom generating $2M of pipeline in 120 days and a walkthrough of intent-data-based audience narrowing. Module 1's "sales tech landscape" and "ABM-programmatic stack" slides cover the same ground with tool names verified current as of July 2026.
+## The book behind Module 5's persona template
 
-> None of the originals are attached for download here — they're described, not redistributed.
+- **[Buyer Personas](https://www.amazon.com/Buyer-Personas-Revised-Expanded-Customers/dp/1394236336)** — Adele Revella. Source of the "5 rings of buying insight" template (priority initiatives, success factors, perceived barriers, buyer's journey, decision criteria) used as Variant 1 in Module 5.
 
 ---
 
