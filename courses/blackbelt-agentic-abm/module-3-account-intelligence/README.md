@@ -84,7 +84,7 @@ The five most effective ways the module lists for opening a conversation with a 
 
 ### The Western contact-data stack, July 2026
 
-The original training's list of contact-finding services was almost entirely Russian-market tools; the table below is the Western-market equivalent, grouped the same way, verified current as of this course revision:
+The table below is the Western-market contact-data stack, grouped by category and verified current as of this course revision:
 
 | Category | Tools |
 |---|---|

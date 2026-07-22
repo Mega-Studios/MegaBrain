@@ -6,7 +6,7 @@
 
 Build an Ideal Customer Profile, score and rank accounts, and turn a long list of possible customers into a short list worth a dedicated program.
 
-> This page replaces the recorded session for Module 2. There's no transcript — the original video wasn't processed — so treat this as written module notes covering the same ground the class does, not a word-for-word record of what was said live. Two pieces of the original material aren't reproduced here: a real client's internal target-account spreadsheet (real company names, real employee contact details) has been replaced throughout with a fictional illustrative example, and a real vendor's contact-enrichment API contact card has been dropped entirely. Examples have also been adapted from the original Russian market to Western companies and tools.
+> This page replaces the recorded session for Module 2. There's no transcript — the original video wasn't processed — so treat this as written module notes covering the same ground the class does, not a word-for-word record of what was said live. Two pieces of the original material aren't reproduced here: a real client's internal target-account spreadsheet (real company names, real employee contact details) has been replaced throughout with a fictional illustrative example, and a real vendor's contact-enrichment API contact card has been dropped entirely. Examples have also been adapted to Western companies and tools throughout.
 
 ## Set the program goal before you touch a target list
 
