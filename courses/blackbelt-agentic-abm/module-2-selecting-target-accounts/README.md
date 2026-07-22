@@ -155,6 +155,6 @@ Score every account on your raw list against the model from Homework 3, and plot
 
 ## Files in this module
 
-- [Slide deck](slides-selecting-target-accounts.pptx)
+- [Slide deck](slides-selecting-target-accounts.pdf)
 - [ICP & scoring template](icp-scoring-template.xlsx)
 - [Homework 1 worksheet](exercise-ideal-customer-profile-worksheet.docx)

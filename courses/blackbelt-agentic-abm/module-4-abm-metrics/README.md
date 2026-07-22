@@ -157,5 +157,5 @@ Export this week's account and opportunity data from your CRM (or reuse last hom
 
 ## Files in this module
 
-- [Slide deck](slides-abm-metrics.pptx)
+- [Slide deck](slides-abm-metrics.pdf)
 - [KPI workbook](kpi-workbook.xlsx)

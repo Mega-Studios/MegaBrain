@@ -100,7 +100,7 @@ courses/
     ├── README.md              (syllabus)
     └── module-N-slug/
         ├── README.md          (module notes)
-        ├── slides-*.pptx
+        ├── slides-*.pdf
         └── *.xlsx / *.docx    (templates)
 ```
 

@@ -142,6 +142,6 @@ Using the MegaBrain account you set up in Module 1's Homework 4, write a researc
 
 ## Files in this module
 
-- [Slide deck](slides-account-intelligence.pptx)
+- [Slide deck](slides-account-intelligence.pdf)
 - [Account plan template](account-plan-template.xlsx)
 - [Contact list template](contact-list-template.xlsx)

@@ -117,5 +117,5 @@ Using the MegaBrain account you set up in Module 1, feed your Homework 1 touchpo
 
 ## Files in this module
 
-- [Slide deck](slides-program-design.pptx)
+- [Slide deck](slides-program-design.pdf)
 - [Budget & RACI template](program-budget-raci-template.xlsx)

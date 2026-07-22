@@ -145,4 +145,4 @@ Create a free account at [getmegabrain.com](https://getmegabrain.com) — no cre
 
 ## Files in this module
 
-- [Slide deck](slides-fundamentals-of-abm.pptx)
+- [Slide deck](slides-fundamentals-of-abm.pdf)

@@ -144,6 +144,6 @@ Confirm the free getmegabrain.com account and API key you set up in Module 1's H
 
 ## Files in this module
 
-- [Slide deck](slides-personalization.pptx)
+- [Slide deck](slides-personalization.pdf)
 - [Persona brief template](persona-brief-template.xlsx)
 - [Messaging & CTA ladder](messaging-cta-ladder.xlsx)
