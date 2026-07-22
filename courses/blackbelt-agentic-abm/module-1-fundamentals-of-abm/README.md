@@ -137,7 +137,7 @@ Start a free trial at linkedin.com/sales/onboarding. Build one saved account sea
 
 #### Homework 4 — set up MegaBrain
 
-Create a free account at [getmegabrain.com](https://getmegabrain.com) — no credit card required, free models are available immediately. Generate an API key from the dashboard and send one test request through the Gateway. This one isn't optional: Module 5's content and personalization exercises are built around having a working MegaBrain account.
+Download MegaBrain for macOS or Windows from [getmegabrain.com](https://getmegabrain.com) — no credit card required. Sign in, connect your GitHub account, and open a repo or local folder to work in — that's the setup every later exercise in this course assumes: the agent works directly on your files, not through a separate API call. This one isn't optional: Module 5's content and personalization exercises are built around having MegaBrain connected to your files.
 
 ---
 

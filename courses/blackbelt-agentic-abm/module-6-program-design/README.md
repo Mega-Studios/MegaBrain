@@ -109,7 +109,7 @@ Decide which rollout pattern fits your org: a full workshop-and-pilot-team launc
 
 #### Homework 4 — run one week of the program through MegaBrain
 
-Using the MegaBrain account you set up in Module 1, feed your Homework 1 touchpoint list into an agent prompt asking for a scheduled program with owners. Compare the agent's draft plan against your own manual draft and note every place they disagree. Pick the single biggest disagreement and resolve it by hand — that's the judgment call an agent can't make for you. Keep both drafts; you'll want the comparison the first time a stakeholder asks why the plan looks the way it does.
+Using the MegaBrain setup you connected in Module 1, point it at your Homework 1 touchpoint list and prompt it for a scheduled program with owners. Compare the agent's draft plan against your own manual draft and note every place they disagree. Pick the single biggest disagreement and resolve it by hand — that's the judgment call an agent can't make for you. Keep both drafts; you'll want the comparison the first time a stakeholder asks why the plan looks the way it does.
 
 ---
 

@@ -110,7 +110,7 @@ Ten proposal mistakes worth checking your own template against: pitching the tec
 
 #### MegaBrain: an agent workflow for this module
 
-Prompt: *"Draft a 3-email nurture sequence for the CFO persona at [Named Account], referencing their Q2 FY26 earnings call and cost-reduction priorities."* Routed through MegaBrain's model-agnostic Gateway (auto-routes across 500+ models, 0% markup), the output is a ready-to-edit 3-email sequence, tone-matched to the persona brief and flagged for a human pass before it goes out — no separate copywriting tool, no per-model contract to negotiate.
+Point MegaBrain's desktop app at the GitHub repo holding your persona briefs, then prompt: *"Draft a 3-email nurture sequence for the CFO persona at [Named Account], referencing their Q2 FY26 earnings call and cost-reduction priorities."* Working directly on the local files, the agent returns a ready-to-edit 3-email sequence, tone-matched to the persona brief and flagged for a human pass before it goes out — no separate copywriting tool, no per-model contract to negotiate.
 
 #### Other agent tools for content personalization
 
@@ -136,7 +136,7 @@ Pick one format that fits your business: audit, demo, roadmap session, hackathon
 
 #### Homework 5 — draft persona messaging with MegaBrain (required)
 
-Confirm the free getmegabrain.com account and API key you set up in Module 1's Homework 4 — this exercise uses it directly. In the MegaBrain dashboard, pick a model from the Gateway (any general-purpose model is fine to start). Use the RISE prompt from this module to draft a full persona brief for one of your Homework 1 personas. Then prompt the same model: "Draft a 3-email nurture sequence for the {persona} at {a real target account from your list}, referencing their most recent public earnings call, product launch, or leadership change, and their likely cost/growth priorities." Read the output against your own persona brief and account intelligence, mark anything you'd cut, and rewrite the parts a human reader would flag as generic. Bring the edited sequence, plus a one-line note on which model you used, to Module 6.
+Confirm the MegaBrain desktop app you set up in Module 1's Homework 4 is still connected to your GitHub — this exercise uses it directly. Open the repo or folder with your persona briefs in MegaBrain and use the RISE prompt from this module to draft a full persona brief for one of your Homework 1 personas. Then prompt the agent: "Draft a 3-email nurture sequence for the {persona} at {a real target account from your list}, referencing their most recent public earnings call, product launch, or leadership change, and their likely cost/growth priorities." Read the output against your own persona brief and account intelligence, mark anything you'd cut, and rewrite the parts a human reader would flag as generic. Bring the edited sequence to Module 6.
 
 ---
 

@@ -130,7 +130,7 @@ The session closes with a deliberately modest worked example — a small strateg
 
 Two places an agent, not a person, can own the reporting grind:
 
-- **The weekly pipeline-health brief.** Feed a CRM/engagement export to an agent through MegaBrain's gateway with a prompt like "summarize this week's ABM funnel movement and flag stalled accounts," and get back a written brief with next actions — the same synthesis a BI analyst or RevOps hire would otherwise produce by hand every Monday.
+- **The weekly pipeline-health brief.** Connect your CRM or engagement-export sheet to MegaBrain's desktop app over MCP (or point it at the exported file in a GitHub repo), then prompt: "summarize this week's ABM funnel movement and flag stalled accounts." You get back a written brief with next actions — the same synthesis a BI analyst or RevOps hire would otherwise produce by hand every Monday.
 - **Other tools worth knowing for this specific job:** **Dreamdata** — a B2B revenue-attribution platform that has moved from pure multi-touch attribution into AI agents that turn that data into plain-language pipeline narratives; **Databox** — connects 130+ data sources into real-time KPI dashboards with an AI layer that surfaces summaries and forecasts; **HubSpot's Breeze Assistant** — CRM-native AI that drafts quick-look reports directly from data already sitting in HubSpot; and **Make or n8n** — a scheduled workflow that pulls the week's funnel movement and posts a digest to Slack every Monday morning, no BI tool required.
 
 ## Exercises
