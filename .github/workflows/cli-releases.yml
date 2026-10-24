@@ -1,0 +1,127 @@
+# The MegaBrain Code Factory JetBrains plugin downloads the MegaBrain CLI from
+# releases of this repo, the way upstream Kilo Code downloads from
+# Kilo-Org/kilocode:
+#   tag      v<version>
+#   assets   kilo-<platform>.zip (darwin, windows) / kilo-<platform>.tar.gz (linux)
+#   layout   the CLI's bin/ tree at the archive root, binary renamed to kilo(.exe)
+#   checksum the sha256 digest GitHub computes per asset; the plugin checks it
+#
+# The archives are packed from the @getmegabrain/cli-<platform> packages already
+# on npm (their bin/ is the build's bin/), so this repo releases with its own
+# token and the CLI repo needs no access here. Hourly it releases the latest npm
+# version if it is missing; run it by hand to release a given version now.
+
+name: CLI releases
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+    inputs:
+      version:
+        description: CLI version on npm, e.g. 7.4.18-mb.25 (empty = latest)
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cli-releases
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      GH_TOKEN: ${{ github.token }}
+      REPO: ${{ github.repository }}
+      INPUT_VERSION: ${{ inputs.version }}
+      PLATFORMS: darwin-arm64 darwin-x64 linux-arm64 linux-x64 windows-arm64 windows-x64
+    steps:
+      - name: Pick the version
+        id: pick
+        run: |
+          set -euo pipefail
+          version="${INPUT_VERSION:-}"
+          if [ -z "$version" ]; then
+            version="$(npm view @getmegabrain/cli@latest version)"
+          fi
+          if ! printf '%s' "$version" | grep -Eq '^[0-9]+\.[0-9]+\.[0-9]+(-[0-9A-Za-z.]+)?$'; then
+            echo "::error::not a version: $version"
+            exit 1
+          fi
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+          have="$(gh release view "v$version" --repo "$REPO" --json assets \
+            --jq '[.assets[].name | select(startswith("kilo-"))] | length' 2>/dev/null || echo 0)"
+          if [ -z "${INPUT_VERSION:-}" ] && [ "$have" -ge 6 ]; then
+            echo "v$version is already released"
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Pack the archives from npm
+        if: steps.pick.outputs.skip != 'true'
+        env:
+          VERSION: ${{ steps.pick.outputs.version }}
+        run: |
+          set -euo pipefail
+          out="$RUNNER_TEMP/out"
+          mkdir -p "$out"
+          for platform in $PLATFORMS; do
+            work="$RUNNER_TEMP/$platform"
+            mkdir -p "$work"
+            (cd "$work" && npm pack "@getmegabrain/cli-$platform@$VERSION" --silent >/dev/null && tar -xzf ./*.tgz)
+            bin="$work/package/bin"
+            exe="megabrain"
+            kilo="kilo"
+            case "$platform" in
+              windows-*) exe="megabrain.exe"; kilo="kilo.exe" ;;
+            esac
+            if [ ! -f "$bin/$exe" ]; then
+              echo "::error::@getmegabrain/cli-$platform@$VERSION has no bin/$exe"
+              exit 1
+            fi
+            mv "$bin/$exe" "$bin/$kilo"
+            # Entries at the archive root without ./, as upstream packs them.
+            # shellcheck disable=SC2035
+            case "$platform" in
+              linux-*) (cd "$bin" && tar -czf "$out/kilo-$platform.tar.gz" *) ;;
+              *) (cd "$bin" && zip -qr "$out/kilo-$platform.zip" *) ;;
+            esac
+          done
+          ls -l "$out"
+
+      - name: Release
+        if: steps.pick.outputs.skip != 'true'
+        env:
+          VERSION: ${{ steps.pick.outputs.version }}
+        run: |
+          set -euo pipefail
+          out="$RUNNER_TEMP/out"
+          tag="v$VERSION"
+          if gh release view "$tag" --repo "$REPO" >/dev/null 2>&1; then
+            gh release upload "$tag" "$out"/kilo-* --repo "$REPO" --clobber
+          else
+            gh release create "$tag" "$out"/kilo-* --repo "$REPO" \
+              --title "MegaBrain CLI $tag" \
+              --notes "MegaBrain CLI $VERSION (npm: @getmegabrain/cli@$VERSION). The MegaBrain Code Factory plugin for JetBrains IDEs downloads these archives. To install the CLI yourself: npm i -g @getmegabrain/cli"
+          fi
+
+          # The plugin refuses an asset without a matching sha256 digest; the
+          # digest can lag the upload, so retry.
+          for f in "$out"/kilo-*; do
+            name="$(basename "$f")"
+            want="sha256:$(sha256sum "$f" | cut -d' ' -f1)"
+            got=""
+            for _ in 1 2 3 4 5 6 7 8 9 10; do
+              got="$(gh api "repos/$REPO/releases/tags/$tag" \
+                --jq ".assets[] | select(.name == \"$name\") | .digest // empty")"
+              [ "$got" = "$want" ] && break
+              sleep 6
+            done
+            if [ "$got" != "$want" ]; then
+              echo "::error::$name: GitHub digest '$got' does not match $want"
+              exit 1
+            fi
+            echo "$name $got"
+          done
