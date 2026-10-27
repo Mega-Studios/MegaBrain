@@ -1,6 +1,6 @@
 id: megabrain-eval
 name: MegaBrain Eval
-description: Run a prompt across multiple MegaBrain models in one call and return outputs side-by-side for evaluation.
+description: Run a prompt across multiple models through MegaBrain in one call and return outputs side-by-side for evaluation.
 author: MegaBrain
 url: https://getmegabrain.com/docs
 category: development

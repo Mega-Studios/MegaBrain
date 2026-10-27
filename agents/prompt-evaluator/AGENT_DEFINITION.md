@@ -1,7 +1,7 @@
 ---
 id: prompt-evaluator
 name: Prompt Evaluator
-description: Runs the same prompt across multiple MegaBrain models and judges which output best fits the task's rubric
+description: Runs the same prompt across multiple models through MegaBrain and judges which output best fits the task's rubric
 author: "@megabrain"
 category: development
 mode: primary
